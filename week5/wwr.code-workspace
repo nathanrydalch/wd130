@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../wwr"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../cse110"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "wd130"
+  }
+}

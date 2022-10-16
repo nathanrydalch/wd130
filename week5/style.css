@@ -1,0 +1,25 @@
+.top {
+    margin: auto;
+    width: 30%;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+}
+.mid {
+    margin: auto;
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px solid blue;
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+}
+.bottom {
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px solid green;
+    background-color: green;
+    text-align: center;
+    font-size: 20px;
+}
