@@ -100,6 +100,8 @@ footer .social img {
     font-family: 'Urbanist', 'Arial', 'Helvetica';
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
+    
 }
 .msg-title {
     color: #E2CFEA;
@@ -194,6 +196,33 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.blog-title {
+    color: #E2CFEA;
+    font-family: 'Urbanist', 'Arial', 'Helvetica';
+    text-align: center;
+}
+.blog-pg {
+    color: #E2CFEA;
+    text-decoration: none;
+    font-family:  "Pontano Sans", "Helvetica", "sans-serif";
+    margin-left: 5em;
+    margin-right: 5em;
+}
+#blog-sub {
+    text-align: center;
+    font-size: .8em;
+}
+.blog-img {
+    display: block;
+    margin-left: 5em;
+    margin-right: 1em;
+    margin-top: 1em
+}
+.block-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
