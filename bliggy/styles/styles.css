@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans&family=Gloria+Hallelujah&family=Noto+Sans&family=Roboto+Slab&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 100px;
+    float: left;
+}
+nav a {
+    font-family: "Arvo", "Roboto Slab", sans-serif;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 35px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #b8b5b5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav a:hover {
+    color: #717171;
+
+}
+body {
+    background-color: #ffffff;
+    font-family:  "DM Sans", "Noto Sans", Sans;
+    margin: 0;
+    padding: 0;
+}
+.portrate-img{
+    padding-top: 20px;
+    max-width: 60%;
+}
+.msg {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+.msg-title {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    grid-area: 2 / 2 / 3 / 6;
+}
+.grid-img {
+    grid-area: 1 / 5 / 9 / 9;
+    z-index: -1;
+}
+.grid-pg {
+    font-family: "DM Sans", "Noto Sans", Sans;
+    grid-area: 3 / 2 / 7 / 6;
+}
+
+
+
+footer {
+    background-color: #002583;
+    color: #dddddd;
+    padding: 25px 50px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-link {
+    color: #dddddd;
+}

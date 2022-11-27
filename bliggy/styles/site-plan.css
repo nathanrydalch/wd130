@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #F0F9FF   ;
   --secondary-color: #51A4F6 ;
   --accent1-color: #002583;
-  --accent2-color: accent2;
+  --accent2-color: #505050;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Arvo", "Roboto Slab", sans-serif;
