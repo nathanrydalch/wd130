@@ -4,7 +4,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-
+a:link { text-decoration: none; }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -62,6 +62,37 @@ body {
 .grid-pg {
     font-family: "DM Sans", "Noto Sans", Sans;
     grid-area: 3 / 2 / 7 / 6;
+}
+.brows-title {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+.brows-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.recipe-grid {
+    display: grid; 
+    grid-template-columns: repeat(9, 1fr); 
+    grid-template-rows: repeat(8, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.recipe-1 {
+    grid-area: 1 / 1 / 9 / 5;
+}
+.recipe-2 {
+    grid-area: 1 / 6 / 9 / 10;
+}
+.recipe-title {
+    text-align: center;
+    background-color: #ffffff;
+    font-family:  "DM Sans", "Noto Sans", Sans;
+    color: black;
 }
 footer {
     background-color: #002583;
