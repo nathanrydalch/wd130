@@ -89,10 +89,24 @@ body {
     grid-area: 1 / 6 / 9 / 10;
 }
 .recipe-title {
+    margin-top: 1em;
     text-align: center;
     background-color: #ffffff;
     font-family:  "DM Sans", "Noto Sans", Sans;
     color: black;
+}
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    scale: auto;
+    max-width: 70%;
+}
+.recipe-pg {
+    font-family: "DM Sans", "Noto Sans", Sans;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 footer {
     background-color: #002583;
